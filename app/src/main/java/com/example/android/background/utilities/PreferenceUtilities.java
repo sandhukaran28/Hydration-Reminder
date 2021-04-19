@@ -19,9 +19,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-/**
- * This class contains utility methods which update water and charging counts in SharedPreferences
- */
+
 public final class PreferenceUtilities {
 
     public static final String KEY_WATER_COUNT = "water-count";

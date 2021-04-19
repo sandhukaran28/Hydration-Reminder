@@ -35,24 +35,14 @@ import com.example.android.background.sync.ReminderTasks;
 import com.example.android.background.sync.WaterReminderIntentService;
 
 
-/**
- * Utility class for creating hydration notifications
- */
+
 public class NotificationUtils {
 
-    /*
-     * This notification ID can be used to access our notification after we've displayed it. This
-     * can be handy when we need to cancel the notification, or perhaps update it. This number is
-     * arbitrary and can be set to whatever you like. 1138 is in no way significant.
-     */
+
     private static final int WATER_REMINDER_NOTIFICATION_ID = 1138;
-    /**
-     * This pending intent id is used to uniquely reference the pending intent
-     */
+
     private static final int WATER_REMINDER_PENDING_INTENT_ID = 3417;
-    /**
-     * This notification channel id is used to link notifications to this channel
-     */
+
     private static final String WATER_REMINDER_NOTIFICATION_CHANNEL_ID = "reminder_notification_channel";
     private static final int ACTION_DRINK_PENDING_INTENT_ID = 1;
     private static final int ACTION_IGNORE_PENDING_INTENT_ID = 14;
